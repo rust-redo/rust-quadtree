@@ -1,0 +1,27 @@
+{
+  "name": "rust-quadtree",
+  "version": "1.0.0",
+  "description": "d3-quadtree implementation via rust",
+  "main": "index.js",
+  "scripts": {
+    "build": "wasm-pack build --target web",
+    "dev": "cargo watch -w src -s \"npm run build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rust-redo/rust-quadtree.git"
+  },
+  "keywords": [
+    "d3",
+    "quadtree",
+    "rust",
+    "wasm"
+  ],
+  "author": "sun0day",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rust-redo/rust-quadtree/issues"
+  },
+  "homepage": "https://github.com/rust-redo/rust-quadtree#readme"
+}
