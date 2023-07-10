@@ -1,12 +1,11 @@
 {
-  "name": "rust-quadtree",
-  "version": "1.0.0",
-  "description": "d3-quadtree implementation via rust",
-  "main": "index.js",
+  "name": "r3-quadtree",
+  "description": "d3-quadtree implementation in rust",
   "scripts": {
-    "build": "wasm-pack build --target web",
+    "build": "rm -rf pkg && wasm-pack build --target web",
     "dev": "cargo watch -w src -s \"npm run build\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "wasm-pack pack && wasm-pack publish"
   },
   "repository": {
     "type": "git",
